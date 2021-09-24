@@ -1,6 +1,9 @@
 {
     "name": "arrayperu/http-code",
     "description": "PHP Library for HTTP Status codes.",
+    "keywords": [
+        "http status", "http status code", "status code", "laravel http status", "laravel http status code", "laravel status code", "laravel", "http", "status", "code"
+    ],
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
@@ -10,7 +13,7 @@
         }
     ],
     "require": {
-        "php": "^7.0"
+        "php":  "^5.4 || ^7.0 || ^8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
