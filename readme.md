@@ -1,5 +1,7 @@
 # HTTP Code Library
 
+[![Latest Stable Version](http://poser.pugx.org/arrayperu/http-code/v)](https://packagist.org/packages/arrayperu/http-code) [![Total Downloads](http://poser.pugx.org/arrayperu/http-code/downloads)](https://packagist.org/packages/arrayperu/http-code) [![Latest Unstable Version](http://poser.pugx.org/arrayperu/http-code/v/unstable)](https://packagist.org/packages/arrayperu/http-code) [![License](http://poser.pugx.org/arrayperu/http-code/license)](https://packagist.org/packages/arrayperu/http-code) [![PHP Version Require](http://poser.pugx.org/arrayperu/http-code/require/php)](https://packagist.org/packages/arrayperu/http-code)
+
 PHP Library for HTTP Status codes.
 
 ## Table of Contents
