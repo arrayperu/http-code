@@ -1,0 +1,21 @@
+{
+    "name": "arrayperu/http-code",
+    "description": "PHP Library for HTTP Status codes.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Array Peru",
+            "email": "code@arrayperu.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ArrayPeru\\": "src/"
+        }
+    }
+}
