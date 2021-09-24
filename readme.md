@@ -2,14 +2,18 @@
 
 PHP Library for HTTP Status codes.
 
-# Table of Contents
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Table of content](#table-of-content)
-- [License](#license)
+- [Table of reference](#table-of-reference)
+  - [1xx - Informational](#1xx---informational)
+  - [2xx - Successful](#2xx---successful)
+  - [3xx - Redirect](#3xx---redirect)
+  - [4xx - Client Error](#4xx---client-error)
+  - [5xx - Server Error](#5xx---server-error)
 
-# Installation
+## Installation
 
 Composer
 
@@ -17,7 +21,7 @@ Composer
 composer require arrayperu/http-code
 ```
 
-# Usage
+## Usage
 
 ```php
 use ArrayPeru\HttpCode;
@@ -32,9 +36,9 @@ echo HttpCode::HTTP_INTERNAL_SERVER_ERROR; // 500
 echo HttpCode::text(HttpCode::HTTP_INTERNAL_SERVER_ERROR); // Internal Server Error
 ```
 
-# Table of content
+## Table of reference
 
-## 1xx - Informational
+### 1xx - Informational
 
 | Property                   | Code | Text                |
 | :------------------------- | ---- | :------------------ |
@@ -43,7 +47,7 @@ echo HttpCode::text(HttpCode::HTTP_INTERNAL_SERVER_ERROR); // Internal Server Er
 | `HTTP_PROCESSING`          | 102  | Processing          |
 | `HTTP_EARLY_HINTS`         | 103  | Early Hints         |
 
-## 2xx - Successful
+### 2xx - Successful
 
 | Property                             | Code | Text                          |
 | :----------------------------------- | ---- | ----------------------------- |
@@ -58,7 +62,7 @@ echo HttpCode::text(HttpCode::HTTP_INTERNAL_SERVER_ERROR); // Internal Server Er
 | `HTTP_ALREADY_REPORTED`              | 208  | Already Reported              |
 | `HTTP_IM_USED`                       | 226  | IM Used                       |
 
-## 3xx - Redirect
+### 3xx - Redirect
 
 | Property                    | Code | Text               |
 | :-------------------------- | ---- | ------------------ |
@@ -72,7 +76,7 @@ echo HttpCode::text(HttpCode::HTTP_INTERNAL_SERVER_ERROR); // Internal Server Er
 | `HTTP_TEMPORARY_REDIRECT`   | 307  | Temporary Redirect |
 | `HTTP_PERMANENTLY_REDIRECT` | 308  | Permanent Redirect |
 
-## 4xx - Client Error
+### 4xx - Client Error
 
 | Property                                                         | Code | Text                                                      |
 | :--------------------------------------------------------------- | ---- | --------------------------------------------------------- |
@@ -106,7 +110,7 @@ echo HttpCode::text(HttpCode::HTTP_INTERNAL_SERVER_ERROR); // Internal Server Er
 | `HTTP_REQUEST_HEADER_FIELDS_TOO_LARGE`                           | 431  | Request Header Fields Too Large                           |
 | `HTTP_UNAVAILABLE_FOR_LEGAL_REASONS`                             | 451  | Unavailable For Legal Reasons                             |
 
-## 5xx - Server Error
+### 5xx - Server Error
 
 | Property                                    | Code | Text                            |
 | :------------------------------------------ | ---- | ------------------------------- |
@@ -121,7 +125,3 @@ echo HttpCode::text(HttpCode::HTTP_INTERNAL_SERVER_ERROR); // Internal Server Er
 | `HTTP_LOOP_DETECTED`                        | 508  | Loop Detected                   |
 | `HTTP_NOT_EXTENDED`                         | 510  | Not Extended                    |
 | `HTTP_NETWORK_AUTHENTICATION_REQUIRED`      | 511  | Network Authentication Required |
-
-# License
-
-MIT
