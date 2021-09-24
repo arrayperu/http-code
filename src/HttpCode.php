@@ -160,6 +160,6 @@ class HttpCode
             511 => 'Network Authentication Required',                             // RFC6585
         ];
 
-        return $code_text[$http_code];
+        return $code_text[$http_code] ?? null;
     }
 }

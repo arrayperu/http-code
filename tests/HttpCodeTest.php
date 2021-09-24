@@ -101,4 +101,9 @@ class HttpCodeTest extends BaseTestCase
         $this->assertTrue("Bad Request" === HttpCode::text(HttpCode::HTTP_BAD_REQUEST));
         $this->assertTrue("Internal Server Error" === HttpCode::text(HttpCode::HTTP_INTERNAL_SERVER_ERROR));
     }
+
+    public function testReturnNullOrEmptyTextCode()
+    {
+        $this->assertEmpty(HttpCode::text(600));
+    }
 }
